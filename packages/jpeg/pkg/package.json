@@ -1,0 +1,14 @@
+{
+  "name": "jpeg",
+  "version": "0.0.0",
+  "files": [
+    "jpeg_bg.wasm",
+    "jpeg.js",
+    "jpeg.d.ts"
+  ],
+  "module": "jpeg.js",
+  "types": "jpeg.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

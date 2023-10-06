@@ -1,0 +1,26 @@
+{
+  "name": "next-on-pages-wasm-import-bug",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:next-on-pages": "next-on-pages"
+  },
+  "dependencies": {
+    "jpeg": "file:packages/jpeg/pkg",
+    "mmcq.js": "^1.2.4",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.6.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
